@@ -7,7 +7,6 @@ body, hr, p, a, h1, h2, h3, h4, h5, h6, ul, li{
 
 
 
-
 #active {
     color:#0C92B8;
 }
@@ -218,3 +217,5 @@ footer > div > a:hover {
 footer > div > img {
     width:50px;
 }
+
+
