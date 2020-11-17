@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8"/>
+    <title>Gerenciamento</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/gerenciamento.css">
+</head>
+<body>
+    
+
+    <header class="header2">
+            <nav class="nav2 nav2_edit">
+                <h1 id="titleheader">Projetos<span>.</span></h1>
+                <ul>
+                    <li><a href="index.html" alt="" id="active">Home</a></li>
+                    <li><a href="projeto.html" alt="">Projetos</a></li>
+                    <li><a href="contato.html" alt="">Contato</a></li>
+                    <li>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-outline-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Francisca</button>
+                        </button>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="gerenciamento.html">Projetos</a>
+                          <a class="dropdown-item" href="gerenciamento_usuario.html">Usuários</a>
+                          <a class="dropdown-item" href="gerenciamento_notif.html">Notificações</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="index.html">Sair</a>
+                        </div>
+                      </div>
+                    </li>
+                </ul>
+            </nav>
+
+            <section class="nav_gerencia">
+                <nav class="nav nav-tabs nav-fill">
+                    <a class="nav-item nav-link active" href="#">Projetos</a>
+                    <a class="nav-item nav-link" href="gerenciamento_usuario.html"alt="">Usuarios</a>
+                    <a href="gerenciamento_notif.html" class="nav-item nav-link notification_person">
+                        <span>Notificações</span>
+                        <span class="badge">3</span>
+                    </a>
+                    <!-- <a class="nav-item nav-link" href="#">Notificações</a> -->
+                </nav>
+            </section>  
+    </header>
+    
+      
+
+    <section class="gerenciamento">
+        <h2 id="title_h2">Gerenciamento de Projetos</h2>
+        <hr id="line"/>
+        <a href="proj_form.html"><button type="button" class="btn btn-outline-primary btn-ld add_button">Adicionar Projeto</button></a>
+
+        <form class="search">
+            <input class="form-control form-control-ld" type="text" placeholder="Pesquise pelo projeto">
+            <button type="button" class="btn btn-outline-primary btn-ld">Buscar</button>
+        </form>
+
+        <div class="table-responsive">
+            <table class="table table-hover" id="paginatable">
+                <thead>
+                    <tr>
+                      <th scope="col">Projeto</th>
+                      <th scope="col">Ações</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Nome Projeto</td>
+                      <td> <a href="proj_form.html"><button type="button" class="btn btn-outline-warning">Editar</button><button type="button" class="btn btn-danger">Excluir</button></a>                        
+                    </td>
+                    </tr>
+                    <tr>
+                      <td>Nome Projeto</td>
+                      <td>
+                        <a href="proj_form.html"><button type="button" class="btn btn-outline-warning">Editar</button><button type="button" class="btn btn-danger">Excluir</button></a> 
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Nome Projeto</td>
+                      <td>
+                        <a href="proj_form.html"><button type="button" class="btn btn-outline-warning">Editar</button><button type="button" class="btn btn-danger">Excluir</button></a> 
+                    </td>
+                    </tr>
+                  </tbody>
+            </table>
+        </div>
+    </section>
+
+    
+
+
+
+    <footer>
+        <p>© Copyright 2020 - 2021 - All Rights Reserved</p>
+        <div>
+            <a href="http://www.uesc.br/" title="Acesse o site da Uesc" >UESC</a>
+            <img src="img/logo.png" />
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

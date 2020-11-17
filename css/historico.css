@@ -27,7 +27,7 @@
     text-align: left;
 }
 
-.itens > button {
+.itens > a {
     margin:5px;
 }
 

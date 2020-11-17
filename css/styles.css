@@ -43,7 +43,7 @@ body, hr, p, a, h1, h2, h3, h4, h5, h6, ul, li{
     width:100px;
     border:1px solid #0C92B8;
     background: #0C92B8;
-    margin:20px;
+    margin:20px 0;
 }
 
 
@@ -148,6 +148,7 @@ HEADER 2
 
 .header2 {
     display:flex;
+    flex-wrap: wrap;
     background-image:
     radial-gradient(
       circle at center center,

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8"/>
+    <title>Novo Projeto</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/proj_form.css">
+</head>
+<body>
+    
+
+    <header class="header2">
+        <nav class="nav2">
+            <h1 id="titleheader">Projetos<span>.</span></h1>
+            <ul>
+                <li><a href="index.html" alt="" >Home</a></li>
+                <li><a href="projeto.html" alt="" >Projetos</a></li>
+                <li><a href="contato.html" alt="" >Contato</a></li>
+                <li><a href="login.html" alt="" id="button">Acessar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="proj_formulario">
+        <h2 id="title_h2">Adicionar Novo Projeto</h2>
+        <hr id="line"/>       
+        <section class="forms">
+            <form>
+                <div class="form-group">
+                    <label for="name">Titulo do Projeto</label>
+                    <input type="text" class="form-control" id="name" placeholder="Título">
+                </div>
+            
+                <div class="form-group">
+                    <label for="message">Resumo</label>
+                    <textarea class="form-control" id="resumo" rows="3" placeholder="Descrição do Projeto"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="name">Área de Conhecimento</label>
+                    <input type="text" class="form-control" id="area_conhecimento" placeholder="">
+                </div>
+                
+
+                <div class="form-row">
+                    <div class="col">
+                        <label for="name">Data de Ínicio</label>
+                        <input class="form-control" type="date" value="2011-08-19" id="data_inicio">
+                    </div>
+                    <div class="col">
+                        <label for="name">Data de Termino</label>
+                        <input class="form-control" type="date" value="2011-08-19" id="data_fim">
+                    </div>
+                  </div>
+
+                <div class="form-group">
+                    <label for="name">Contato</label>
+                    <input type="email" class="form-control" id="email" placeholder="email@gmail.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="name">Contato</label>
+                    <input type="email" class="form-control" id="email" placeholder="email@gmail.com">
+                </div>
+
+
+                <div class="form-group">
+                    <div id="select_Orientador">
+                        <label for="select_orientador">Orientadores</label>
+                        <select class="form-control">
+                        <option value="" selected disabled hidden>Nome do Orientador</option>
+                        <option value="Leonardo Lima">Leonardo Lima</option>
+                        <option value="Valdir Verde">Valdir Verde</option>
+                        <option value="Tiago Santiago">Tiago Santiago</option>
+                        <option value="Maria Maricena">Maria Maricena</option>
+                        <option value="Marcos Mariatti">Marcos Mariatti</option>
+                        </select>
+                    </div>
+                    <button type="button" class="btn btn-outline-success" onclick="add_integrante('Orientador')">Adicionar Orientador</button>
+            </div>
+            
+            <div class="form-group">
+                <div id="select_Colaborador">
+                    <label for="select_orientadores">Colaboradores</label>
+                    <select class="form-control">
+                    <option value="" selected disabled hidden>Nome do Colaborador</option>
+                    <option value="Leonardo Lima">Leonardo Lima</option>
+                    <option value="Valdir Verde">Valdir Verde</option>
+                    <option value="Tiago Santiago">Tiago Santiago</option>
+                    <option value="Maria Maricena">Maria Maricena</option>
+                    <option value="Marcos Mariatti">Marcos Mariatti</option>
+                    </select>
+                </div>
+                <button type="button" class="btn btn-outline-success" onclick="add_integrante('Colaborador')">Adicionar Colaborador</button>
+            </div>
+
+                <div class="form-group">
+                    <div class="col">
+                    <label for="name">Palavras Chave</label>
+                    <input  type="text" data-role="tagsinput" class="form-control" id="tags">
+                    </div>
+                    <div class="col">
+                    <button type="button" class="btn btn-outline-success">Adicionar</button>
+                    </div>
+                    <div class="tag_output"></div>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="files">Adicionar Imagens</label>
+                    <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="files" multiple>
+                        <label class="custom-file-label" for="customFile">Escolher Imagem</label>
+                    </div>
+                    <output id="result" />
+                </div>
+
+                <div class="form-group">
+                    <label for="files">Adicionar PDF</label>
+                    <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="customFile" multiple>
+                        <label class="custom-file-label" for="customFile">Choose file</label>
+                      </div>
+                </div>
+
+                  <button type="submit" class="btn btn-primary">Criar Projeto</button>
+                </form>
+        </section>
+    </section>
+
+
+    <footer>
+        <p>© Copyright 2020 - 2021 - All Rights Reserved</p>
+        <div>
+            <a href="http://www.uesc.br/" title="Acesse o site da Uesc" >UESC</a>
+            <img src="img/logo.png" />
+        </div>
+    </footer>
+
+    <script src="js/functions.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
