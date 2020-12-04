@@ -1,7 +1,8 @@
 # Banco de Projetos (Disciplina de Programação Web)
 
 Clonando o Repositório: git clone https://github.com/ellisonguimaraes/Banco-De-Projetos.git
-Preview do Protótipo: 
+
+Preview do Protótipo: https://dstalkerbr.github.io/Banco-De-Projetos/index.html
 
 ## Descrição
 
@@ -9,16 +10,16 @@ Repositório do protótipo funcional das principais páginas do projeto do Tema 
 Representa a proposta inicial do sistema de banco de projetos, em seu estado parcial, pode haver elementos incompletos, mas que estão presentes para exibir uma ideia do que se propõe para o projeto final.
 
 ## Lista de Páginas prototipadas
-- [Página Inicial]()
-- [Lista de Projetos]()
-- [Página do Projeto]()
-- [Página de Histórico de Projeto]()
-- [Página de Cadastro de Projeto]()
-- [Página de Cadastro de Usuário]()
-- [Página de Login de Usuário]()
-- [Perfil de Usuário]()
-- Páginas de Gerenciamento ([Projetos](), [Usuário]() e [Notificações]())
-- [Página de Contato]()
+- [Página Inicial](https://dstalkerbr.github.io/Banco-De-Projetos/)
+- [Lista de Projetos](https://dstalkerbr.github.io/Banco-De-Projetos/projeto.html)
+- [Página do Projeto](https://dstalkerbr.github.io/Banco-De-Projetos/proj_page.html)
+- [Página de Histórico de Projeto](https://dstalkerbr.github.io/Banco-De-Projetos/historico.html)
+- [Página de Cadastro de Projeto](https://dstalkerbr.github.io/Banco-De-Projetos/proj_form.html)
+- [Página de Cadastro de Usuário](https://dstalkerbr.github.io/Banco-De-Projetos/cadastro.html)
+- [Página de Login de Usuário](https://dstalkerbr.github.io/Banco-De-Projetos/login.html)
+- [Perfil de Usuário](https://dstalkerbr.github.io/Banco-De-Projetos/perfil.html)
+- Páginas de Gerenciamento ([Projetos](https://dstalkerbr.github.io/Banco-De-Projetos/gerenciamento.html), [Usuário](https://dstalkerbr.github.io/Banco-De-Projetos/gerenciamento_usuario.html) e [Notificações](https://dstalkerbr.github.io/Banco-De-Projetos/gerenciamento_notif.html))
+- [Página de Contato](https://dstalkerbr.github.io/Banco-De-Projetos/contato.html)
 
 ## Estrutura de Diretórios 
 ```
